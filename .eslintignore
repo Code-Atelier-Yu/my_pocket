@@ -1,0 +1,19 @@
+# Prisma generated files
+/app/generated/
+
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env*
+
+# Other generated files
+*.tsbuildinfo
