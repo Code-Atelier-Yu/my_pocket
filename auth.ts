@@ -16,7 +16,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     signIn: async ({ user, account }) => {
       if (account?.provider === "google") {
         const email = user.email;
-        const ALLOWED_EMAILS = ["your-email@gmail.com","your-email2@gmail.com"];
+        const ALLOWED_EMAILS = ["yu62ballena@gmail.com"];
 
         if (!email || !ALLOWED_EMAILS.includes(email)) {
           return false;
