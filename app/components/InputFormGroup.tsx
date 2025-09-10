@@ -41,6 +41,7 @@ function InputFormGroup() {
       }
 
       const articleData = await extractUrlData(formData);
+      console.log("記事データ", articleData);
 
       if (!articleData) {
         return;
